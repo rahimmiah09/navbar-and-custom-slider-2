@@ -1,0 +1,49 @@
+.br {
+  font-size: 100%;
+}
+
+.c_prev,
+.c_next {
+  position: absolute;
+  top: 85%;
+  bottom: 0;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 5%;
+  padding: 0;
+  color: #fff;
+  text-align: center;
+  background: none;
+  border: 0;
+  opacity: 0.5;
+  transition: opacity 0.15s ease;
+}
+
+.c_prev {
+  margin-left: 85%;
+}
+
+.c_next {
+  margin-right: 1%;
+}
+
+.c_ind {
+  position: absolute;
+  right: 70%;
+  bottom: 40%;
+  left: 0;
+  z-index: 2;
+  display: block;
+  justify-content: end;
+  margin-bottom: 1rem;
+  margin-left: 2%;
+}
+
+.c_ind button {
+  width: 15px !important ;
+  height: 15px !important;
+  border-radius: 50%;
+  display: block;
+}
